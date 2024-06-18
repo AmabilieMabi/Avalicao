@@ -10,13 +10,13 @@
     <body>
         <div class="container">
             <h1>Remover Jogos</h1>
-            <p>Tem certeza que deseja remover o livro ${livro.titulo} ?</p>
+            <p>Tem certeza que deseja remover o jogos ${livro.titulo} ?</p>
             <form action="/jogos/delete" method="post">
                 <input type="hidden" name="id" value="${jogos.id}" />
 
                 <br />
                 <a href="/jogos/list" class="btn btn-secondary">Voltar</a>
-                <button type="submit" class="btn btn-success">Salvar</button>
+                <button type="submit" class="btn btn-success">Remover</button>
             </form>
         </div>
     </body>

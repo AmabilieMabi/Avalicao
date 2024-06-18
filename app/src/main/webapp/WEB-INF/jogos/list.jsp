@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Livros</h1>
+            <h1>Jogos<h1>
             <a href="/jogos/insert" class="btn btn-primary">Novo Jogo</a>
             <table class="table">
                 <tr>
